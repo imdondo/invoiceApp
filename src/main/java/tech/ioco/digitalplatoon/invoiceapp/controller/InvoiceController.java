@@ -8,7 +8,7 @@ import tech.ioco.digitalplatoon.invoiceapp.service.InvoiceService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/invoices")
+@RequestMapping("/api/invoices")
 public class InvoiceController {
     @Autowired
     private InvoiceService invoiceService;
