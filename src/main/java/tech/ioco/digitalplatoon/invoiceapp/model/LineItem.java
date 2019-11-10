@@ -14,13 +14,14 @@ import java.math.BigDecimal;
 @Setter
 public class LineItem {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+    private long invoiceId;
     private long quantity;
     private String description;
     private BigDecimal unitPrice;
 
-    public BigDecimal getLineItemTotal(){
+    public BigDecimal getLineItemTotal() {
 
         return null;
     }
